@@ -1,20 +1,20 @@
 <template>
     <div>
-        <nav class="bg-primary backdrop-blur-sm shadow-md fixed w-full z-50 h-14">
-            <ul class="flex items-center justify-between px-7 gap-8 py-4 mx-auto w-full">
+        <nav class="bg-primary shadow-md fixed w-full z-50 h-14">
+            <ul class="flex items-center justify-between px-7 gap-8 text-white/85 font-light py-4 mx-auto w-full">
                 <div class="items-center gap-8 hidden md:flex">
                     <li><a href="#"
-                            class="text-gray-700 hover:text-black transition-colors duration-200 font-medium">Home</a>
+                            class="hover:text-white transition-colors duration-200">Home</a>
                     </li>
                     <li><a href="#"
-                            class="text-gray-700 hover:text-black transition-colors duration-200 font-medium">Dyslexia &
+                            class="hover:text-white transition-colors duration-200">Dyslexia &
                             Dyscalculia</a></li>
                     <li><a href="#"
-                            class="text-gray-700 hover:text-black transition-colors duration-200 font-medium">Assessments</a>
+                            class="hover:text-white transition-colors duration-200">Assessments</a>
                     </li>
                 </div>
                 <li class="hidden md:flex"><a href="#"
-                        class="text-gray-700 hover:text-black transition-colors duration-200 font-medium">Contact</a>
+                        class="hover:text-white transition-colors duration-200">Contact</a>
                 </li>
             </ul>
         </nav>
