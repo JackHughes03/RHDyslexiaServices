@@ -6,7 +6,7 @@
     <AboutMe />
     <CTA />
 
-    <footer />
+    <Footer />
   </div>
 </template>
 
