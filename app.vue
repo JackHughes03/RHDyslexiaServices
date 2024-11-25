@@ -4,6 +4,9 @@
 
     <Services />
     <AboutMe />
+    <CTA />
+
+    <footer />
   </div>
 </template>
 
