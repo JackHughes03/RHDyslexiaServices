@@ -6,8 +6,10 @@
             together, I am confident that we can succeed.</p>
     </div>
 
-    <section class="max-w-4xl mx-auto flex items-center justify-center text-white mt-10 gap-8 pb-10">
-        <article class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
+    <section
+        class="max-w-4xl items-center justify-center w-2/3 sm:w-full flex flex-col sm:flex-row mx-auto text-white mt-10 gap-8 pb-10">
+        <article
+            class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
             <div class="size-40 rounded-full overflow-hidden services-images shadow-lg">
             </div>
 
@@ -18,12 +20,14 @@
                     dyslexia & dyscalculia
                 </h2>
                 <p class="text-sm font-light text-center text-gray-200 leading-relaxed">
-                    Find out more about these specific learning difficulties in order to gain an understanding of why and
+                    Find out more about these specific learning difficulties in order to gain an understanding of why
+                    and
                     how your child may be struggling.
                 </p>
             </div>
         </article>
-        <article class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
+        <article
+            class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
             <div class="size-40 rounded-full overflow-hidden services-images shadow-lg">
             </div>
 
@@ -39,7 +43,8 @@
                 </p>
             </div>
         </article>
-        <article class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
+        <article
+            class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
             <div class="size-40 rounded-full overflow-hidden services-images shadow-lg">
             </div>
 
@@ -60,7 +65,7 @@
 
 <style>
 .services-images {
-    background-image: url('@/assets/images/girl-writing-whitetop.jpg');
+    background-image: url('img/girl-writing-whitetop.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

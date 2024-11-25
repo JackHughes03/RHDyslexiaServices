@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       nuxt:
-        specifier: ^3.14.1592
+        specifier: ^3.13.2
         version: 3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.9.3)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(vite@5.4.11(@types/node@22.9.3)(terser@5.36.0))
       vue:
-        specifier: latest
+        specifier: ^3.5.10
         version: 3.5.13(typescript@5.7.2)
       vue-router:
-        specifier: latest
+        specifier: ^4.4.5
         version: 4.4.5(vue@3.5.13(typescript@5.7.2))
     devDependencies:
       autoprefixer:

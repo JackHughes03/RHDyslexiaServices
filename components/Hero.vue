@@ -1,25 +1,17 @@
-<script>
-import { onMounted } from 'vue';
+<script setup>
+import { onMounted, ref } from 'vue';
 
-export default {
-    data() {
-        return {
-            isMenuOpen: false
-        }
-    },
+const isMenuOpen = ref(false);
 
-    methods: {
-        toggleMenu() {
-            const icon = document.querySelector('.icon');
-            const nav = document.querySelector('nav');
-            icon.classList.toggle("open");
+const toggleMenu = () => {
+    const icon = document.querySelector('.icon');
+    const nav = document.querySelector('nav');
+    icon.classList.toggle("open");
 
-            if (icon.classList.contains('open')) {
-                nav.classList.add('open');
-            } else {
-                nav.classList.remove('open');
-            }
-        }
+    if (icon.classList.contains('open')) {
+        nav.classList.add('open');
+    } else {
+        nav.classList.remove('open');
     }
 }
 </script>
@@ -34,10 +26,13 @@ export default {
                 <span></span>
             </button>
 
+            <a href="" class="text-white italic absolute left-4 top-4 sm:hidden">RHDsylexia</a>
             <ul class="hidden flex-col h-full items-center justify-center text-xl gap-4 text-white mobile-nav">
                 <li><a href="#" class="mobile-nav-link">Home</a></li>
-                <li><a href="#" class="mobile-nav-link">Dyslexia &
-                        Dyscalculia</a></li>
+                <li>
+                    <NuxtLink to="/info" class="mobile-nav-link">Dyslexia &
+                        Dyscalculia</NuxtLink>
+                </li>
                 <li><a href="#" class="mobile-nav-link">Assessments</a></li>
                 <li><a href="#" class="mobile-nav-link">Contact</a></li>
             </ul>
@@ -47,8 +42,10 @@ export default {
                 <div class="items-center gap-8 flex">
                     <li><a href="#" class="hover:text-white transition-colors duration-200">Home</a>
                     </li>
-                    <li><a href="#" class="hover:text-white transition-colors duration-200">Dyslexia &
-                            Dyscalculia</a></li>
+                    <li>
+                        <NuxtLink to="/info" class="mobile-nav-link">Dyslexia &
+                            Dyscalculia</NuxtLink>
+                    </li>
                     <li><a href="#" class="hover:text-white transition-colors duration-200">Assessments</a>
                     </li>
                 </div>
@@ -62,8 +59,8 @@ export default {
                 class="bg-black/50 absolute top-0 left-0 md:p-20 sm:p-10 md:pt-40 sm:pt-24 pt-20 p-6 w-full md:h-[700px] h-[500px]">
                 <!-- Overlay -->
                 <div class="text-white max-w-4xl">
-                    <h1 class="md:text-5xl text-3xl uppercase">DYSLEXIA AND DYSCALCULIA SERVICES & ASSESSMENTS IN NEWTON
-                        ABBOT</h1>
+                    <h1 class="md:text-5xl text-3xl uppercase">DYSLEXIA AND DYSCALCULIA SERVICES & ASSESSMENTS in devon
+                    </h1>
                     <p class="font-light mt-4 md:text-lg text-sm">I can help children and young adults throughout Newton
                         Abbot and Devon. I
                         am fully qualified and DBS
