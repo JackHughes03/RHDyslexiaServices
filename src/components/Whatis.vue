@@ -27,7 +27,7 @@
 
 <style>
 #whatisdyslexia-image {
-    background-image: url('img/whatisdyslexia.webp');
+    /* background-image: url('/src/assets/whatisdyslexia.webp'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

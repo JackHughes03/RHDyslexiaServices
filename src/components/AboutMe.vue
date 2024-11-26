@@ -38,7 +38,7 @@
 
 <style scoped>
 #my-face {
-    background-image: url('img/my-face.webp');
+    background-image: url('/src/assets/my-face.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

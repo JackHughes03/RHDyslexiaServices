@@ -28,7 +28,7 @@
 
 <style>
 #header-image {
-    background-image: url('img/numbers.webp');
+    background-image: url('/src/assets/numbers.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,5 +1,9 @@
 <script setup>
 import { onMounted, ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
 
 const isMenuOpen = ref(false);
 
@@ -18,7 +22,7 @@ const toggleMenu = () => {
 
 <template>
     <div>
-        <nav class="shadow-md bg-primary fixed w-full duration-300 z-50 h-14">
+        <nav class="shadow-lg shadow-black/50 bg-primary fixed w-full duration-300 z-50 h-14">
 
             <button @click="toggleMenu" class="icon sm:!hidden flex nav-icon-2">
                 <span></span>
@@ -29,9 +33,9 @@ const toggleMenu = () => {
             <a href="" class="text-white italic absolute left-4 top-4 sm:hidden">RHDsylexia</a>
             <ul class="hidden flex-col h-full items-center justify-center text-xl gap-4 text-white mobile-nav">
                 <li><a href="#" class="mobile-nav-link">Home</a></li>
-                <li>
-                    <NuxtLink to="/info" class="mobile-nav-link">Dyslexia &
-                        Dyscalculia</NuxtLink>
+                <li class="cursor-pointer">
+                    <router-link to="/service" class="mobile-nav-link cursor-pointer">Dyslexia &
+                        Dyscalculia</router-link>
                 </li>
                 <li><a href="#" class="mobile-nav-link">Assessments</a></li>
                 <li><a href="#" class="mobile-nav-link">Contact</a></li>
@@ -43,8 +47,8 @@ const toggleMenu = () => {
                     <li><a href="#" class="hover:text-white transition-colors duration-200">Home</a>
                     </li>
                     <li>
-                        <NuxtLink to="/info" class="mobile-nav-link">Dyslexia &
-                            Dyscalculia</NuxtLink>
+                        <router-link to="/service" class="mobile-nav-link cursor-pointer">Dyslexia &
+                            Dyscalculia</router-link>
                     </li>
                     <li><a href="#" class="hover:text-white transition-colors duration-200">Assessments</a>
                     </li>
@@ -77,7 +81,7 @@ const toggleMenu = () => {
 
 <style>
 header {
-    background-image: url('img/girl-writing.webp');
+    background-image: url('/src/assets/girl-writing.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

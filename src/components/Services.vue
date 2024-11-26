@@ -65,7 +65,7 @@
 
 <style>
 .services-images {
-    background-image: url('img/girl-writing-whitetop.jpg');
+    background-image: url('/src/assets/girl-writing-whitetop.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
