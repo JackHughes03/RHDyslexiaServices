@@ -30,7 +30,7 @@ const toggleMenu = () => {
                 <span></span>
             </button>
 
-            <a href="" class="text-white italic absolute left-4 top-4 sm:hidden">RHDsylexia</a>
+            <a href="" class="text-white italic absolute left-4 top-4 sm:hidden font-[cursive]">RHDsylexia</a>
             <ul class="hidden flex-col h-full items-center justify-center text-xl gap-4 text-white mobile-nav">
                 <li><a href="#" class="mobile-nav-link">Home</a></li>
                 <li class="cursor-pointer">
@@ -43,7 +43,8 @@ const toggleMenu = () => {
 
             <ul
                 class="hidden sm:flex items-center justify-between px-7 gap-8 text-white/85 font-light py-4 mx-auto w-full">
-                <div class="items-center gap-8 flex">
+                <div class="items-center gap-8 flex text-sm">
+                    <li><a href="/" class="italic font-bold text-base font-[cursive]">RHDsylexia</a></li>
                     <li><a href="#" class="hover:text-white transition-colors duration-200">Home</a>
                     </li>
                     <li>
@@ -53,7 +54,7 @@ const toggleMenu = () => {
                     <li><a href="#" class="hover:text-white transition-colors duration-200">Assessments</a>
                     </li>
                 </div>
-                <li class="flex"><a href="#" class="hover:text-white transition-colors duration-200">Contact</a>
+                <li class="flex"><a href="#" class="hover:text-white transition-colors text-sm duration-200">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -92,7 +93,7 @@ header {
     height: 30px;
     position: absolute;
     right: 15px;
-    top: 15px;
+    top: 14px;
     cursor: pointer;
     display: inline-block;
 }
@@ -108,7 +109,7 @@ header {
     width: 100%;
     height: 3px;
     display: block;
-    top: 0px;
+    top: 3px;
     left: 0px;
 }
 
@@ -116,7 +117,7 @@ header {
     width: 100%;
     height: 3px;
     display: block;
-    top: 10px;
+    top: 12px;
     left: 0px;
 }
 
@@ -124,7 +125,7 @@ header {
     width: 100%;
     height: 3px;
     display: block;
-    bottom: 7px;
+    bottom: 6px;
     left: 0px;
 }
 
@@ -183,7 +184,7 @@ header {
 }
 
 nav.open {
-    height: 90%;
+    height: 70%;
 }
 
 nav.open .mobile-nav {

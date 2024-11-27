@@ -1,8 +1,8 @@
 <template>
     <div
-        class="bg-secondary p-10 flex flex-col sm:flex-row items-start justify-center max-w-5xl mx-4 sm:mx-auto rounded-lg gap-8">
+        class="bg-secondary p-10 flex flex-col sm:flex-row items-start justify-center max-w-5xl my-10 mx-4 sm:mx-auto rounded-lg gap-8">
 
-        <div class="w-2/3 sm:w-full h-40" id="my-face"></div>
+        <img src="../../src/assets/my-face.webp" alt="my-face" class="w-2/3 sm:w-full h-40">
 
         <div class=" text-white">
             <h1 class="uppercase md:text-4xl text-2xl">Dyslexia and Dyscalculia Services & Assessments for Children and
@@ -35,12 +35,3 @@
         </div>
     </div>
 </template>
-
-<style scoped>
-#my-face {
-    background-image: url('/src/assets/my-face.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-</style>

@@ -7,67 +7,114 @@
     </div>
 
     <section
-        class="max-w-4xl items-center justify-center w-2/3 sm:w-full flex flex-col sm:flex-row mx-auto text-white mt-10 gap-8 pb-10">
+        class="max-w-6xl items-center justify-center w-full flex flex-col md:flex-row mx-auto text-white mt-8 md:mt-16 gap-4 md:gap-8 px-4 pb-10">
+        <router-link to="/service">
         <article
-            class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
-            <div class="size-40 rounded-full overflow-hidden services-images shadow-lg">
-            </div>
+            class="w-full md:max-w-sm flex items-center justify-center text-center flex-col group 
+            hover:scale-[1.02] hover:-translate-y-1 
+            transition-all duration-300 ease-out">
+            <div class="hidden md:block size-48 rounded-2xl overflow-hidden services-images service-image-1 shadow-xl"></div>
 
-            <div class="border-[1px] border-purple-300/30 rounded-lg backdrop-blur-sm bg-white/5 
-                        flex items-center justify-center flex-col gap-4 h-48 mt-6 px-6 py-8
-                        hover:bg-white/10 transition-all duration-300 shadow-lg">
-                <h2 class="uppercase font-semibold tracking-wider text-purple-200">
-                    dyslexia & dyscalculia
-                </h2>
-                <p class="text-sm font-light text-center text-gray-200 leading-relaxed">
-                    Find out more about these specific learning difficulties in order to gain an understanding of why
-                    and
-                    how your child may be struggling.
-                </p>
+            <div
+                class="relative rounded-xl backdrop-blur-md md:border-[1px] border-white/30 
+                        flex items-center justify-center flex-col gap-3 md:gap-4 w-full mt-0 md:mt-8 transition-all duration-300 shadow-xl bg-white/10 md:h-64">
+                <div class="absolute inset-0 md:hidden">
+                    <div class="w-full h-full rounded-xl services-images service-image-1 opacity-50"></div>
+                    <div class="absolute rounded-xl inset-0 bg-black/50 backdrop-blur-[2px]"></div>
+                </div>
+
+                <div class="relative px-4 md:px-8 py-8 md:py-10 flex flex-col gap-3 md:gap-4">
+                    <h2 class="uppercase font-semibold tracking-wider text-purple-100 text-base md:text-lg">
+                        dyslexia & dyscalculia
+                    </h2>
+                    <p class="text-xs md:text-sm font-light text-center text-gray-200 leading-relaxed">
+                        Find out more about these specific learning difficulties in order to gain an understanding of
+                        why
+                        and how your child may be struggling.
+                    </p>
+                </div>
             </div>
         </article>
-        <article
-            class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
-            <div class="size-40 rounded-full overflow-hidden services-images shadow-lg">
-            </div>
+    </router-link>
 
-            <div class="border-[1px] border-purple-300/30 rounded-lg backdrop-blur-sm bg-white/5 
-                        flex items-center justify-center flex-col gap-4 h-48 mt-6 px-6 py-8
-                        hover:bg-white/10 transition-all duration-300 shadow-lg">
-                <h2 class="uppercase font-semibold tracking-wider text-purple-200">
-                    assessments
-                </h2>
-                <p class="text-sm font-light text-center text-gray-200 leading-relaxed">
-                    I conduct full diagnostic dyslexia assessments and shorter screening assessments for English and
-                    maths.
-                </p>
+        <router-link to="/service">
+        <article
+            class="w-full md:max-w-sm flex items-center justify-center text-center flex-col group 
+            hover:scale-[1.02] hover:-translate-y-1 
+            transition-all duration-300 ease-out">
+            <div class="hidden md:block size-48 rounded-2xl overflow-hidden services-images service-image-2 shadow-xl"></div>
+
+            <div
+                class="relative rounded-xl backdrop-blur-md md:border-[1px] border-white/30 
+                        flex items-center justify-center flex-col gap-3 md:gap-4 w-full mt-0 md:mt-8 transition-all duration-300 shadow-xl bg-white/10 md:h-64">
+                <div class="absolute inset-0 md:hidden">
+                    <div class="w-full h-full rounded-xl services-images service-image-2 opacity-50"></div>
+                    <div class="absolute rounded-xl inset-0 bg-black/50 backdrop-blur-[2px]"></div>
+                </div>
+
+                <div class="relative px-4 md:px-8 py-8 md:py-10 flex flex-col gap-3 md:gap-4">
+                    <h2 class="uppercase font-semibold tracking-wider text-purple-100 text-base md:text-lg">
+                        assessments
+                    </h2>
+                    <p class="text-xs md:text-sm font-light text-center text-gray-200 leading-relaxed">
+                        I conduct full diagnostic dyslexia assessments and shorter screening assessments for English and
+                        maths.
+                    </p>
+                </div>
             </div>
         </article>
-        <article
-            class="flex items-center justify-center flex-col group hover:scale-105 transition-transform duration-300">
-            <div class="size-40 rounded-full overflow-hidden services-images shadow-lg">
-            </div>
+    </router-link>
 
-            <div class="border-[1px] border-purple-300/30 rounded-lg backdrop-blur-sm bg-white/5 
-                        flex items-center justify-center flex-col gap-4 h-48 mt-6 px-6 py-8
-                        hover:bg-white/10 transition-all duration-300 shadow-lg">
-                <h2 class="uppercase font-semibold tracking-wider text-purple-200">
-                    contact me
-                </h2>
-                <p class="text-sm font-light text-center text-gray-200 leading-relaxed">
-                    If you have a child that would benefit from any of my services, I invite you to get in touch with me
-                    via phone or email as soon as possible.
-                </p>
+        <router-link to="/service">
+        <article
+            class="w-full md:max-w-sm flex items-center justify-center text-center flex-col group 
+            hover:scale-[1.02] hover:-translate-y-1 
+            transition-all duration-300 ease-out">
+            <div class="hidden md:block size-48 rounded-2xl overflow-hidden services-images service-image-3 shadow-xl"></div>
+
+            <div
+                class="relative rounded-xl backdrop-blur-md md:border-[1px] border-white/30 
+                        flex items-center justify-center flex-col gap-3 md:gap-4 w-full mt-0 md:mt-8 transition-all duration-300 shadow-xl bg-white/10 md:h-64">
+                <div class="absolute inset-0 md:hidden">
+                    <div class="w-full h-full rounded-xl services-images service-image-3 opacity-50"></div>
+                    <div class="absolute rounded-xl inset-0 bg-black/50 backdrop-blur-[2px]"></div>
+                </div>
+
+                <div class="relative px-4 md:px-8 py-8 md:py-10 flex flex-col gap-3 md:gap-4">
+                    <h2 class="uppercase font-semibold tracking-wider text-purple-100 text-base md:text-lg">
+                        contact me
+                    </h2>
+                    <p class="text-xs md:text-sm font-light text-center text-gray-200 leading-relaxed">
+                        If you have a child that would benefit from any of my services, I invite you to get in touch
+                        with me
+                        via phone or email as soon as possible.
+                    </p>
+                </div>
             </div>
         </article>
+    </router-link>
     </section>
 </template>
 
 <style>
 .services-images {
-    background-image: url('/src/assets/girl-writing-whitetop.jpg');
+    /* background-image: url('/src/assets/girl-writing-whitetop.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    filter: brightness(1.1) contrast(1.1);
+    border-radius: 12px;
+}
+
+.service-image-1 {
+    background-image: url('../../src/assets/girl-writing.webp');
+}
+
+.service-image-2 {
+    background-image: url('../../src/assets/numbers.webp');
+}
+
+.service-image-3 {
+    background-image: url('../../src/assets/girl-writing-whitetop.jpg');
 }
 </style>
