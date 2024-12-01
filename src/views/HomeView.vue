@@ -6,10 +6,11 @@ import Services from '../components/Services.vue';
 import AboutMe from '../components/AboutMe.vue';
 import Footer from '../components/Footer.vue';
 import CTA from '../components/CTA.vue';
-import Whatis from '../components/Whatis.vue';
+import NavBar from '../components/NavBar.vue';
 </script>
 
 <template>
+    <NavBar />
     <Hero />
     <Services />
     <AboutMe />

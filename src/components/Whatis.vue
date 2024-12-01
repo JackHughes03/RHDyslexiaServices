@@ -1,24 +1,7 @@
 <template>
-    <div class="text-white">
-        <!-- Introduction Section -->
-        <section class="relative p-10 md:p-16">
-            <h2 class="uppercase md:text-4xl text-2xl font-bold relative">
-                Dyslexia & Dyscalculia - what is it?
-                <span class="absolute bottom-0 left-0 w-20 h-1 bg-primary mt-2"></span>
-            </h2>
-            <p class="mt-6 md:mt-8 italic font-light md:text-lg max-w-4xl">
-                I understand that Dyslexia and Dyscalculia can be difficult to understand.
-                However, if your child is struggling with one of these specific learning difficulties, it's useful to
-                have as much information as possible. If you have any questions about either of these conditions, I am
-                happy to communicate via email. I also offer Dyslexia and Dyscalculia 
-                <strong class="italic underline decoration-primary decoration-2">assessments</strong> and 
-                <strong class="italic underline decoration-primary decoration-2">tuition</strong>
-                throughout Newton Abbot and Devon if required.
-            </p>
-        </section>
-
+    <div>
         <!-- Information Sections -->
-        <div class="space-y-8">
+        <div class="space-y-8 text-white">
             <!-- Dyslexia Section -->
             <section class="flex flex-col md:flex-row gap-8 items-center bg-secondary p-10">
                 <div class="w-full md:w-1/3">
