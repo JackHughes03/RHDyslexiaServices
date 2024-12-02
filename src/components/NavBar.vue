@@ -16,21 +16,21 @@ const toggleMenu = () => {
     }
 }
 
-window.addEventListener('scroll', () => {
-    const nav = document.querySelector('nav');
+// window.addEventListener('scroll', () => {
+//     const nav = document.querySelector('nav');
 
-    if (window.scrollY > 200) {
-        nav.classList.remove('h-14');
-        nav.classList.add('h-10', 'text-xs');
-    } else {
-        nav.classList.remove('h-10', 'text-xs');
-        nav.classList.add('h-14');
-    }
-});
+//     if (window.scrollY > 200) {
+//         nav.classList.remove('h-14');
+//         nav.classList.add('h-10', 'text-xs');
+//     } else {
+//         nav.classList.remove('h-10', 'text-xs');
+//         nav.classList.add('h-14');
+//     }
+// });
 </script>
 
 <template>
-    <nav class="shadow-lg shadow-black/30 bg-primary fixed w-full duration-300 text-sm z-50 flex items-center justify-center">
+    <nav class="shadow-lg shadow-black/30 bg-primary fixed w-full h-14 sm:h-auto duration-300 text-sm z-50 flex items-center justify-center">
 
         <button @click="toggleMenu" class="icon sm:!hidden flex nav-icon-2">
             <span></span>
