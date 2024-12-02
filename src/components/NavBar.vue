@@ -16,17 +16,6 @@ const toggleMenu = () => {
     }
 }
 
-// window.addEventListener('scroll', () => {
-//     const nav = document.querySelector('nav');
-
-//     if (window.scrollY > 200) {
-//         nav.classList.remove('h-14');
-//         nav.classList.add('h-10', 'text-xs');
-//     } else {
-//         nav.classList.remove('h-10', 'text-xs');
-//         nav.classList.add('h-14');
-//     }
-// });
 </script>
 
 <template>
@@ -42,35 +31,38 @@ const toggleMenu = () => {
         <ul class="hidden flex-col h-full items-center justify-center text-xl gap-4 text-white mobile-nav">
             <li><a href="#" class="mobile-nav-link nav-links">Home</a></li>
             <li class="cursor-pointer">
-                <router-link to="/service" class="mobile-nav-link nav-links cursor-pointer">Dyslexia &
+                <router-link role="button" to="/service" class="mobile-nav-link nav-links cursor-pointer">Dyslexia &
                     Dyscalculia</router-link>
             </li>
-            <li><router-link to="/assessments" class="mobile-nav-link nav-links">Assessments</router-link></li>
-            <li><a href="#" class="mobile-nav-link">Contact</a></li>
+            <li><router-link role="button" to="/assessments" class="mobile-nav-link nav-links">Assessments</router-link></li>
+            <li><router-link role="button" to="/contact" class="mobile-nav-link">Contact</router-link></li>
         </ul>
 
-        <ul class="hidden sm:flex items-center justify-between px-7 gap-8 text-white/85 font-light py-4 mx-auto w-full">
-            <div class="items-center gap-8 flex">
+        <div class="hidden sm:flex items-center justify-between px-7 gap-8 text-white/85 font-light py-4 mx-auto w-full">
+            <ul class="items-center gap-8 flex">
                 <li><a href="/" class="italic font-bold text-base font-[cursive]">RHDsylexia</a></li>
                 <li>
-                    <a href="#"
-                        class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Home</a>
+                    <router-link role="button" to="/"
+                        class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Home</router-link>
                 </li>
                 <li>
-                    <router-link to="/service"
+                    <router-link role="button" to="/service"
                         class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Dyslexia
                         & Dyscalculia</router-link>
                 </li>
                 <li>
-                    <router-link to="/assessments"
+                    <router-link role="button" to="/assessments"
                         class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Assessments</router-link>
                 </li>
-            </div>
+            </ul>
+
+            <ul class="items-center gap-8 flex">
             <li class="flex">
-                <a href="#"
-                    class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Contact</a>
+                <router-link role="button" to="/contact"
+                    class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Contact</router-link>
             </li>
-        </ul>
+            </ul>
+        </div>
     </nav>
 </template>
 

@@ -10,7 +10,7 @@ const router = useRouter();
         <header class="md:h-[700px] h-[500px] flex items-center justify-center">
             <div
                 class="bg-black/50 absolute top-0 left-0 md:p-20 sm:p-10 md:pt-40 sm:pt-24 pt-20 p-6 w-full md:h-[700px] h-[500px]">
- 
+
                 <div class="text-white max-w-4xl">
                     <h1 class="md:text-5xl text-3xl uppercase">DYSLEXIA AND DYSCALCULIA SERVICES & ASSESSMENTS in devon
                     </h1>
@@ -21,7 +21,7 @@ const router = useRouter();
                         don't
                         hesitate to contact me via email.</p>
 
-                    <button class="bg-primary px-6 py-2 rounded-full mt-4 font-light">Contact Me</button>
+                    <router-link to="/contact" class="primary-button" role="button">Contact Me</router-link>
                 </div>
             </div>
         </header>

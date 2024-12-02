@@ -1,11 +1,26 @@
+<script>
+import { ref } from 'vue';
+
+export default {
+    props: {
+        image: {
+            type: Boolean,
+            required: true
+        }
+    }
+}
+</script>
+
 <template>
-    <div class="mt-10">
-        <section class="w-full sm:h-96 h-64" id="header-image"></section>
+    <div>
+        <img alt="Header image" title="Header image" v-if="image" src="../../src/assets/numbers.webp" class="w-full sm:h-96 h-64 object-cover">
 
         <section class="text-white p-10">
-            <h2 class="uppercase md:text-4xl text-2xl text-center font-light">Email me for dyslexia and dyscalculia services in
+            <h2 class="uppercase md:text-4xl text-2xl text-center font-light">Email me for dyslexia and dyscalculia
+                services in
                 newton abbot and devon.</h2>
-            <p class="text-center mt-4 italic font-light opacity-80">Fill in the contact form below to receive a free quote. I am
+            <p class="text-center mt-4 italic font-light opacity-80">Fill in the contact form below to receive a free
+                quote. I am
                 always more than happy to help.</p>
         </section>
 
@@ -25,12 +40,3 @@
         </form>
     </div>
 </template>
-
-<style>
-#header-image {
-    background-image: url('/src/assets/numbers.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-</style>

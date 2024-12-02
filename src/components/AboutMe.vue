@@ -1,8 +1,10 @@
 <template>
     <div
-        class="bg-secondary p-10 flex flex-col sm:flex-row items-start justify-center max-w-5xl my-10 mx-4 sm:mx-auto rounded-lg gap-8">
+        class="bg-secondary p-10 flex flex-col sm:flex-row items-start justify-center max-w-5xl my-10 mx-4 sm:mx-auto rounded-lg gap-8"
+        id="qualifications">
 
-        <img src="../../src/assets/my-face.webp" alt="my-face" class="w-2/3 sm:w-full h-40">
+        <img src="../../src/assets/my-face.jpg" alt="Picture of my face" title="Picture of my face"
+            class="w-32 sm:w-40 rounded-lg border-2">
 
         <div class=" text-white">
             <h1 class="uppercase md:text-4xl text-2xl">Dyslexia and Dyscalculia Services & Assessments for Children and
@@ -31,7 +33,7 @@
                 aim to get started as soon as
                 possible.</p>
 
-            <button class="bg-primary px-6 py-2 rounded-full mt-4 font-light">Get in touch</button>
+            <router-link to="/contact" class="primary-button">Get in touch</router-link>
         </div>
     </div>
 </template>

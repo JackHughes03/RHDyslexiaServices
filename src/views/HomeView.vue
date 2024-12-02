@@ -14,6 +14,6 @@ import NavBar from '../components/NavBar.vue';
     <Hero />
     <Services />
     <AboutMe />
-    <CTA />
+    <CTA :image="true" />
     <Footer />
 </template>
