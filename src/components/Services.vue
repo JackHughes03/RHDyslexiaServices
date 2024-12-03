@@ -8,7 +8,7 @@
 
     <section
         class="max-w-6xl items-center justify-center w-full flex flex-col md:flex-row mx-auto text-white mt-8 md:mt-16 gap-4 md:gap-8 px-4 pb-10">
-        <router-link to="/service">
+        <router-link to="/dyslexia-and-dyscalculia">
             <article class="w-full md:max-w-sm flex items-center justify-center text-center flex-col group 
             hover:scale-[1.02] hover:-translate-y-1 
             transition-all duration-300 ease-out">

@@ -1,4 +1,9 @@
+<script setup>
+import NavBar from '../components/NavBar.vue';
+</script>
+
 <template>
+    <NavBar />
     <div class="min-h-screen flex items-center justify-center bg-background">
         <div class="text-center text-white space-y-6 px-4">
             <h1 class="text-6xl font-bold">404</h1>

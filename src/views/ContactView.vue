@@ -18,8 +18,8 @@ import Introwhatis from '../components/Introwhatis.vue';
             <div class="space-y-6 text-lg">
                 <div class="flex items-center gap-3 border-b border-primary pb-4">
                     <span class="font-semibold min-w-[120px]">Call me:</span>
-                    <a href="tel:07432106006" class="hover:text-primary transition-colors">
-                        07432 106006
+                    <a href="tel:17349159784" class="hover:text-primary transition-colors">
+                        07349 159784
                     </a>
                 </div>
                 <div class="flex items-center gap-3 border-b border-primary pb-4">

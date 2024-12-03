@@ -11,8 +11,8 @@ import Assessmentsinfo from '../components/Assessmentsinfo.vue';
 
 <template>
     <NavBar />
-    <Introwhatis title="Dyslexia diagnostic Assessments in newton abbot and devon"
-        description="I can complete full or shorter diagnostic screening assessments for Dyslexia and for Dyscalculia. If you are worried that your child might be struggling with one of these specific learning difficulties, please get in touch. To book an assessment in Newton Abbot or Devon, please drop me an email at info@rhdyslexiaservices.co.uk as soon as possible." />
+    <Introwhatis title="Dyslexia Assessments in newton abbot and devon"
+        description="I can complete full assessments for Dyslexia or Dyscalculia or shorter screening assessments for literacy and/or maths. If you are worried that your child might be struggling with one of these specific learning difficulties, please get in touch. To book an assessment in Newton Abbot or Devon, please drop me an email at info@rhdyslexiaservices.co.uk as soon as possible." />
     <Assessmentsinfo />
     <CTA :image="true" />
     <Footer />

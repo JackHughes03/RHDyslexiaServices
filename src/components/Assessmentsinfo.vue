@@ -23,7 +23,7 @@
                 <p>Please note that I will require a £100 deposit for assessments, with the remaining fee to be paid the
                     day before the assessment is conducted.</p>
 
-                <a class="primary-button"> <!-- Link to diagnostic policy -->
+                <a target="_blank" href="/T&C-Diagnostic-Assessments.pdf" class="primary-button"> <!-- Link to diagnostic policy -->
                     T&C's Diagnostic Assessments
                 </a>
                 <br>
@@ -39,9 +39,9 @@
             </div>
 
             <div class="w-full md:w-2/3 space-y-4">
-                <h3 class="text-3xl uppercase font-bold">screening FOR Dyslexia and dyscalculia</h3>
+                <h3 class="text-3xl uppercase font-bold">Screening FOR Dyslexia and dyscalculia</h3>
 
-                <p class="mt-4">If your child is showing symptoms of Dyslexia and is between the ages of 6 and 14, they
+                <p class="mt-4">If your child is showing symptoms of Dyslexia and is between the ages of 6 and 15, they
                     may benefit from one of my shorter <strong>screening assessments</strong>, which come complete with
                     a short report and cost £250. This will involve tests to assess underlying ability, spelling,
                     writing, reading, working memory, phonological awareness and speed of processing. I will also ask
@@ -55,10 +55,10 @@
                     recommendations for teaching and tutoring if required.</p>
 
                 <p>If you would like to know more about Dyslexia and Dyscalculia, you can find some information
-                    <router-link class="underline" to="/service">here</router-link>. Alternatively, I am more than happy
+                    <router-link class="underline" to="/dyslexia-and-dyscalculia">here</router-link>. Alternatively, I am more than happy
                     to answer any specific questions if you drop me an email.</p>
 
-                <a class="primary-button"> <!-- Link to T&C's for informal assessments -->
+                <a target="_blank" href="/T&C-Informal-Assessment.pdf" class="primary-button"> <!-- Link to T&C's for informal assessments -->
                     Terms and Conditions for Informal Assessments
                 </a>
             </div>

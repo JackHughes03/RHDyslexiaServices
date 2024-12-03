@@ -15,7 +15,6 @@ const toggleMenu = () => {
         nav.classList.remove('open');
     }
 }
-
 </script>
 
 <template>
@@ -27,11 +26,11 @@ const toggleMenu = () => {
             <span></span>
         </button>
 
-        <a href="" class="text-white italic absolute left-4 top-4 sm:hidden font-[cursive]">RHDsylexia</a>
+        <a href="" class="text-white italic absolute left-4 top-4 sm:hidden font-[cursive]">RHDyslexia</a>
         <ul class="hidden flex-col h-full items-center justify-center text-xl gap-4 text-white mobile-nav">
-            <li><a href="#" class="mobile-nav-link nav-links">Home</a></li>
+            <li><router-link role="button" to="/" class="mobile-nav-link nav-links">Home</router-link></li>
             <li class="cursor-pointer">
-                <router-link role="button" to="/service" class="mobile-nav-link nav-links cursor-pointer">Dyslexia &
+                <router-link role="button" to="/dyslexia-and-dyscalculia" class="mobile-nav-link nav-links cursor-pointer">Dyslexia &
                     Dyscalculia</router-link>
             </li>
             <li><router-link role="button" to="/assessments" class="mobile-nav-link nav-links">Assessments</router-link></li>
@@ -40,13 +39,13 @@ const toggleMenu = () => {
 
         <div class="hidden sm:flex items-center justify-between px-7 gap-8 text-white/85 font-light py-4 mx-auto w-full">
             <ul class="items-center gap-8 flex">
-                <li><a href="/" class="italic font-bold text-base font-[cursive]">RHDsylexia</a></li>
+                <li><a href="/" class="italic font-bold text-base font-[cursive]">RHDyslexia</a></li>
                 <li>
                     <router-link role="button" to="/"
                         class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Home</router-link>
                 </li>
                 <li>
-                    <router-link role="button" to="/service"
+                    <router-link role="button" to="/dyslexia-and-dyscalculia"
                         class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Dyslexia
                         & Dyscalculia</router-link>
                 </li>

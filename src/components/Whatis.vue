@@ -79,7 +79,7 @@
                     </blockquote>
 
                     <p>If you have a child or young adult that is struggling with reading, writing, spelling or maths
-                        they may benefit from my assessments and/or tuition. If you would like to know more, please make
+                        they may benefit from one of my assessments. If you would like to know more, please make
                         sure to drop me an email.</p>
 
                     <router-link to="/contact" class="primary-button">

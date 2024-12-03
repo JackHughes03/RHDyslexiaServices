@@ -4,38 +4,32 @@ import ServiceView from "@/views/ServiceView.vue";
 import AssessmentsView from "@/views/AssessmentsView.vue";
 import ContactView from "@/views/ContactView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
+import ContactSuccessView from "@/views/ContactSuccessView.vue";
 const routes = [
     {
         path: "/",
         name: "home",
         component: HomeView,
-        component: function () {
-            return import(/* webpackChunkName: "home" */ '../views/HomeView.vue')
-        },
     },
     {
-        path: "/service",
-        name: "service",
+        path: "/dyslexia-and-dyscalculia",
+        name: "dyslexia-and-dyscalculia",
         component: ServiceView,
-        component: function () {
-            return import(/* webpackChunkName: "about" */ '../views/ServiceView.vue')
-        },
     },
     {
         path: "/assessments",
         name: "assessments",
         component: AssessmentsView,
-        component: function () {
-            return import(/* webpackChunkName: "assessments" */ '../views/AssessmentsView.vue')
-        },
     },
     {
         path: "/contact",
         name: "contact",
         component: ContactView,
-        component: function () {
-            return import(/* webpackChunkName: "contact" */ '../views/ContactView.vue')
-        },
+    },
+    {
+        path: "/contact-success",
+        name: "contact-success",
+        component: ContactSuccessView,
     },
     {
         path: "/:pathMatch(.*)*",
