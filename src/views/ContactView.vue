@@ -15,20 +15,20 @@ import Introwhatis from '../components/Introwhatis.vue';
     <section class="p-10 md:p-20 bg-secondary text-white">
         <div class="max-w-4xl mx-auto">
             <h2 class="uppercase text-3xl md:text-4xl font-bold mb-8 text-primary text-center">Contact Details</h2>
-            <div class="space-y-6 text-lg">
-                <div class="flex items-center gap-3 border-b border-primary pb-4">
+            <div class="space-y-6 text-lg flex flex-col items-center">
+                <div class="flex items-center  justify-center w-full md:w-1/2 text-center gap-3 border-b border-primary pb-4">
                     <span class="font-semibold min-w-[120px]">Call me:</span>
                     <a href="tel:17349159784" class="hover:text-primary transition-colors">
                         07349 159784
                     </a>
                 </div>
-                <div class="flex items-center gap-3 border-b border-primary pb-4">
+                <div class="flex items-center  justify-center w-full md:w-1/2 text-center gap-3 border-b border-primary pb-4">
                     <span class="font-semibold min-w-[120px]">Email me:</span>
                     <a href="mailto:info@dyslexiaservices.co.uk" class="hover:text-primary transition-colors">
                         info@dyslexiaservices.co.uk
                     </a>
                 </div>
-                <div class="flex items-center gap-3">
+                <div class="flex items-center  justify-center w-full md:w-1/2 text-center gap-3 border-b border-primary pb-4">
                     <span class="font-semibold min-w-[120px]">Business Hours:</span>
                     <span>Mon - Sun 8am - 8pm</span>
                 </div>

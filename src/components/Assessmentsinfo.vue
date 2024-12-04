@@ -2,7 +2,7 @@
     <div class="space-y-8 text-white">
         <section class="flex flex-col md:flex-row gap-8 items-center bg-secondary p-10">
             <div class="w-full md:w-1/3">
-                <img src="../../src/assets/girl-reading.webp" alt="What is Dyslexia?"
+                <img src="../../src/assets/girl-writing-whitetop.jpg" alt="What is Dyslexia?"
                     class="w-full h-[400px] object-cover rounded-lg shadow-lg" title="What is Dyslexia?">
             </div>
 
@@ -34,7 +34,7 @@
         <!-- Dyscalculia Section -->
         <section class="flex flex-col md:flex-row gap-8 items-center bg-secondary p-10">
             <div class="w-full md:w-1/3 order-first md:order-last">
-                <img src="../../src/assets/numbers.webp" alt="What is Dyscalculia?"
+                <img src="../../src/assets/girl-writing.webp" alt="What is Dyscalculia?"
                     class="w-full h-[400px] object-cover rounded-lg shadow-lg" title="What is Dyscalculia?">
             </div>
 
