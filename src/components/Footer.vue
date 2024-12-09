@@ -11,7 +11,7 @@
             </div>
 
             <div class="space-y-4">
-                <h4 class="font-semibold text-lg">Legal</h4>
+                <h4 class="font-semibold text-lg underline">Legal</h4>
                 <a href="/Privacy-Policy.pdf" target="_blank"
                     class="hover:text-primary transition-colors cursor-pointer">Privacy Policy</a>
             </div>
