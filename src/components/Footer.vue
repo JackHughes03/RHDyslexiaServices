@@ -34,8 +34,9 @@
             <div class="space-y-4">
                 <h4 class="font-semibold text-lg underline">Images and icons</h4>
                 <div class="flex flex-col space-y-2">
-                    <p>Images supplied by <a class="underline" href="https://pixabay.com/" target="_blank">Pixabay</a>
-                        and <a class="underline" href="https://unsplash.com/">Unsplash</a></p>
+                    <p>Images supplied by <a class="underline" href="https://pixabay.com/" target="_blank">Pixabay, </a>
+                        <a class="underline" href="https://unsplash.com/">Unsplash</a> and <a class="underline"
+                            href="https://www.pexels.com/">Pexels</a></p>
                 </div>
             </div>
         </div>

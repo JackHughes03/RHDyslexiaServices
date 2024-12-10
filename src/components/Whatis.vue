@@ -163,7 +163,7 @@
             </div>
 
             <div class="w-full md:w-1/3">
-                <img src="../../src/assets/girl-writing-whitetop.jpg" alt="How can I help my child?"
+                <img src="../../src/assets/boy-reading.webp" alt="How can I help my child?"
                     class="w-full h-[400px] object-cover rounded-lg shadow-lg" title="How can I help my child?">
             </div>
         </section>

@@ -5,6 +5,11 @@ import Footer from '../components/Footer.vue';
 import CTA from '../components/CTA.vue';
 import NavBar from '../components/NavBar.vue';
 import Introwhatis from '../components/Introwhatis.vue';
+
+// useSeoMeta({
+//     title: 'Contact us at Rebecca Hughes Dyslexia Services',
+//     description: 'Contact details for Rebecca Hughes Dyslexia Services in Newton Abbot. Get in touch today.',
+// });
 </script>
 
 <template>

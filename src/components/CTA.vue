@@ -17,7 +17,7 @@ export default {
             e.preventDefault();
             const form = e.target;
             const formData = new FormData(form);
-            
+
             const object = {};
             formData.forEach((value, key) => {
                 object[key] = value;
@@ -38,7 +38,7 @@ export default {
                 });
 
                 const json = await response.json();
-                
+
                 if (response.status == 200) {
                     result.value = json.message;
                     resultColor.value = 'green';
@@ -93,17 +93,17 @@ export default {
                     class="flex-1 p-5 rounded-2xl bg-white/5 text-white placeholder-white/50 border-2 border-white/10 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all duration-300">
                 <input name="number" type="number" placeholder="Phone Number" required
                     class="flex-1 p-5 rounded-2xl bg-white/5 text-white placeholder-white/50 border-2 border-white/10 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all duration-300">
-
             </div>
 
-            <input type="text" name="honeypot" style="display:none">
-            <input type="hidden" name="accessKey" value="bbdd9f47-ca19-42e2-a333-0e82eb1a7813">
-            <input type="hidden" name="redirectTo" value="https://www.rhdyslexiaservices.co.uk/#/contact-success">
+            <!-- <input type="text" name="honeypot" style="display:none"> -->
+            <input type="hidden" name="access_key" value="5dff5abc-bfb3-4e4c-b6b1-6fd72ba7d2a2">
+            <!-- <input type="hidden" name="redirectTo" value="https://www.rhdyslexiaservices.co.uk/#/contact-success"> -->
 
             <textarea name="message" placeholder="Message"
                 class="w-full p-5 rounded-2xl bg-white/5 text-white placeholder-white/50 border-2 border-white/10 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all duration-300 min-h-[180px] resize-y"></textarea>
             <button type="submit" value="Send message"
-                class="bg-gradient-to-r cursor-pointer from-blue-900 to-blue-800 hover:from-blue-800 hover:to-blue-700 px-14 py-4 rounded-full mt-4 font-light transition-all duration-300 text-white w-fit mx-auto text-lg shadow-xl hover:shadow-blue-900/30 transform hover:-translate-y-1 active:translate-y-0">Send Message
+                class="bg-gradient-to-r cursor-pointer from-blue-900 to-blue-800 hover:from-blue-800 hover:to-blue-700 px-14 py-4 rounded-full mt-4 font-light transition-all duration-300 text-white w-fit mx-auto text-lg shadow-xl hover:shadow-blue-900/30 transform hover:-translate-y-1 active:translate-y-0">Send
+                Message
             </button>
 
             <div v-if="showResult" :style="{ color: resultColor }" class="text-center mt-4">{{ result }}</div>

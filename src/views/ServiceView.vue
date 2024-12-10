@@ -6,6 +6,11 @@ import CTA from '../components/CTA.vue';
 import Whatis from '../components/Whatis.vue';
 import NavBar from '../components/NavBar.vue';
 import Introwhatis from '../components/Introwhatis.vue';
+
+// useSeoMeta({
+//     title: 'Dyslexia & Dyscalculia | Rebecca Hughes Dyslexia Services',
+//     description: 'Rebecca Hughes Dyslexia Services has extensive knowledge regarding Dyslexia & Dyscalculia and can help children and young adults in Newton Abbot and Devon.',
+// });
 </script>
 
 <template>
