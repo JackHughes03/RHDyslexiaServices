@@ -24,6 +24,7 @@ const routes = [
             title: "Dyslexia & Dyscalculia | Rebecca Hughes Dyslexia Services",
             description: "Rebecca Hughes Dyslexia Services has extensive knowledge regarding Dyslexia & Dyscalculia and can help children and young adults in Newton Abbot and Devon."
         },
+        
     },
     {
         path: "/assessments",

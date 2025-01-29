@@ -20,7 +20,7 @@ const toggleMenu = () => {
 <template>
     <nav class="shadow-lg shadow-black/30 bg-primary/80 backdrop-blur-md fixed w-full h-14 sm:h-auto duration-300 text-sm z-50 flex items-center justify-center">
 
-        <button @click="toggleMenu" class="icon sm:!hidden flex nav-icon-2">
+        <button @click="toggleMenu" type="button" class="icon sm:!hidden flex nav-icon-2">
             <span></span>
             <span></span>
             <span></span>
