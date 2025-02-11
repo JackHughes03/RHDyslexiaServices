@@ -98,7 +98,7 @@ export default {
             <input type="text" name="honeypot" style="display:none">
             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             <input type="hidden" name="access_key" value="5dff5abc-bfb3-4e4c-b6b1-6fd72ba7d2a2">
-            <!-- <input type="hidden" name="redirectTo" value="https://www.rhdyslexiaservices.co.uk/#/contact-success"> -->
+            <!-- <input type="hidden" name="redirectTo" value="https://www.rhdyslexiaservices.co.uk/contact-success"> -->
 
             <textarea name="message" placeholder="Message"
                 class="w-full p-5 rounded-2xl bg-white/5 text-white placeholder-white/50 border-2 border-white/10 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all duration-300 min-h-[180px] resize-y"></textarea>

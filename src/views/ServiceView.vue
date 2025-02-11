@@ -19,8 +19,7 @@ import Introwhatis from '../components/Introwhatis.vue';
             However, if your child is struggling with one of these specific learning difficulties, it's useful to 
             have as much information as possible. If you have any questions about either of these conditions, I am 
             happy to communicate via email. I also offer Dyslexia and Dyscalculia 
-            <strong class='italic underline decoration-primary decoration-2'>assessments</strong> and 
-            <strong class='italic underline decoration-primary decoration-2'>tuition</strong> 
+            <strong class='italic underline decoration-primary decoration-2'>assessments</strong>
             throughout Newton Abbot and Devon if required." />
     <Whatis />
     <CTA :image="true" />

@@ -72,27 +72,4 @@ const router = createRouter({
     },
 });
 
-// Navigation guard to update meta tags dynamically
-router.beforeEach((to, from, next) => {
-    // Update the document title from route meta
-    if (to.meta && to.meta.title) {
-        document.title = to.meta.title;
-    }
-
-    // Optionally update other meta tags (e.g., description)
-    if (to.meta && to.meta.description) {
-        const descriptionTag = document.querySelector('meta[name="description"]');
-        if (descriptionTag) {
-            descriptionTag.setAttribute('content', to.meta.description);
-        } else {
-            const newDescriptionTag = document.createElement('meta');
-            newDescriptionTag.setAttribute('name', 'description');
-            newDescriptionTag.setAttribute('content', to.meta.description);
-            document.head.appendChild(newDescriptionTag);
-        }
-    }
-
-    next();
-});
-
 export default router;

@@ -1,3 +1,9 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.rhdyslexiaservices.co.uk/sitemap.xml 
+Disallow: /Privacy-Policy.pdf
+Disallow: /T&C-Diagnostic-Assessments.pdf
+Disallow: /T&C-Informal-Assessment.pdf
+Allow: /contact
+Allow: /assessments
+Allow: /dyslexia-and-dyscalculia
+Sitemap: https://www.rhdyslexiaservices.co.uk/sitemap.xml
