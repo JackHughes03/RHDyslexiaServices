@@ -4,6 +4,7 @@ import ServiceView from "@/views/ServiceView.vue";
 import AssessmentsView from "@/views/AssessmentsView.vue";
 import ContactView from "@/views/ContactView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
+import TestimonialsView from "@/views/TestimonialsView.vue";
 import ContactSuccessView from "@/views/ContactSuccessView.vue";
 
 const routes = [
@@ -33,6 +34,15 @@ const routes = [
         meta: {
             title: "Dyslexia Assessments | Rebecca Hughes Dyslexia Services",
             description: "Rebecca Hughes Dyslexia Services provide dyslexia and dyscalculia screening assessments for children and young adults in Newton Abbot and Devon."
+        },
+    },
+    {
+        path: "/testimonials",
+        name: "testimonials",
+        component: TestimonialsView,
+        meta: {
+            title: "Testimonials | Rebecca Hughes Dyslexia Services",
+            description: "Read what our clients have to say about Rebecca Hughes Dyslexia Services in Newton Abbot and Devon."
         },
     },
     {

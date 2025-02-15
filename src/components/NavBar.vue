@@ -34,6 +34,7 @@ const toggleMenu = () => {
                     Dyscalculia</router-link>
             </li>
             <li><router-link role="button" to="/assessments" class="mobile-nav-link nav-links">Assessments</router-link></li>
+            <li><router-link role="button" to="/testimonials" class="mobile-nav-link nav-links">Testimonials</router-link></li>
             <li><router-link role="button" to="/contact" class="mobile-nav-link">Contact</router-link></li>
         </ul>
 
@@ -52,6 +53,10 @@ const toggleMenu = () => {
                 <li>
                     <router-link role="button" to="/assessments"
                         class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Assessments</router-link>
+                </li>
+                <li>
+                    <router-link role="button" to="/testimonials"
+                        class="relative after:absolute after:bg-white after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300">Testimonials</router-link>
                 </li>
             </ul>
 
