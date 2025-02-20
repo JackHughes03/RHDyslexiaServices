@@ -1,4 +1,4 @@
-import { createWebHashHistory, createRouter } from "vue-router";
+import { createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import ServiceView from "@/views/ServiceView.vue";
 import AssessmentsView from "@/views/AssessmentsView.vue";
@@ -7,7 +7,7 @@ import NotFoundView from "@/views/NotFoundView.vue";
 import TestimonialsView from "@/views/TestimonialsView.vue";
 import ContactSuccessView from "@/views/ContactSuccessView.vue";
 
-const routes = [
+export const routes = [
     {
         path: "/",
         name: "home",
@@ -73,13 +73,3 @@ const routes = [
         },
     },
 ];
-
-const router = createRouter({
-    history: createWebHashHistory(),
-    routes: routes,
-    scrollBehavior() {
-        return { top: 0 };
-    },
-});
-
-export default router;
