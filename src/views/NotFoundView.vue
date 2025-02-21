@@ -1,11 +1,5 @@
 <script setup>
 import NavBar from '../components/NavBar.vue';
-
-// useSeoMeta({
-//     robots: 'noindex, follow',
-//     title: '404 - Page Not Found',
-//     description: 'The page you\'re looking for doesn\'t exist or has been moved.',
-// });
 </script>
 
 <template>

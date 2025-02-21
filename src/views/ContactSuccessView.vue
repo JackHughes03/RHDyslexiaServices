@@ -3,12 +3,6 @@ import { ref, onMounted, createApp } from 'vue';
 
 import Footer from '../components/Footer.vue';
 import NavBar from '../components/NavBar.vue';
-
-// useSeoMeta({
-//     robots: 'noindex, follow',
-//     title: 'Contact Success',
-//     description: 'Thanks for your message, i\'ll get back to you as soon as possible!',
-// });
 </script>
 
 <template>

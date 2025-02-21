@@ -7,11 +7,6 @@ import Whatis from '../components/Whatis.vue';
 import NavBar from '../components/NavBar.vue';
 import Introwhatis from '../components/Introwhatis.vue';
 import Assessmentsinfo from '../components/Assessmentsinfo.vue';
-
-// useSeoMeta({
-//     title: 'Dyslexia Assessments | Rebecca Hughes Dyslexia Services',
-//     description: 'Rebecca Hughes Dyslexia Services provide dyslexia and dyscalculia screening assessments',
-// });
 </script>
 
 <template>

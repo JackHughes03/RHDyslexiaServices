@@ -14,7 +14,7 @@ export const routes = [
         component: HomeView,
         meta: {
             title: "Home | Rebecca Hughes Dyslexia Services",
-            description: "Looking for Boys Schools, Catholic Schools, Colleges in NEWTON ABBOT, devon? Contact us today."
+            description: "I offer Dyslexia and Dyscalculia Assessment Services in Newton Abbot and Devon."
         },
     },
     {
@@ -23,7 +23,7 @@ export const routes = [
         component: ServiceView,
         meta: {
             title: "Dyslexia & Dyscalculia | Rebecca Hughes Dyslexia Services",
-            description: "Rebecca Hughes Dyslexia Services has extensive knowledge regarding Dyslexia & Dyscalculia and can help children and young adults in Newton Abbot and Devon."
+            description: "Learn more about Dyslexia and Dyscalculia and how I can help you or your child."
         },
         
     },
@@ -33,7 +33,7 @@ export const routes = [
         component: AssessmentsView,
         meta: {
             title: "Dyslexia Assessments | Rebecca Hughes Dyslexia Services",
-            description: "Rebecca Hughes Dyslexia Services provide dyslexia and dyscalculia screening assessments for children and young adults in Newton Abbot and Devon."
+            description: "I offer Dyslexia and Dyscalculia Assessment Services in Newton Abbot and Devon."
         },
     },
     {
@@ -42,7 +42,7 @@ export const routes = [
         component: TestimonialsView,
         meta: {
             title: "Testimonials | Rebecca Hughes Dyslexia Services",
-            description: "Read what our clients have to say about Rebecca Hughes Dyslexia Services in Newton Abbot and Devon."
+            description: "Read what my clients have to say about me."
         },
     },
     {
@@ -50,8 +50,8 @@ export const routes = [
         name: "contact",
         component: ContactView,
         meta: {
-            title: "Contact us at Rebecca Hughes Dyslexia Services",
-            description: "Contact details for Rebecca Hughes Dyslexia Services in Newton Abbot. Get in touch today."
+            title: "Contact me | Rebecca Hughes Dyslexia Services",
+            description: "Contact Me | Rebecca Hughes Dyslexia Services in Newton Abbot. Get in touch today."
         },
     },
     {
@@ -60,7 +60,7 @@ export const routes = [
         component: ContactSuccessView,
         meta: {
             title: "Contact Success | RHDyslexia Services",
-            description: "Thank you for contacting us! We will get back to you shortly regarding your Dyslexia and Dyscalculia inquiry."
+            description: "Thank you for contacting us!."
         },
     },
     {

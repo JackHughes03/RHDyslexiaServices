@@ -5,11 +5,6 @@ import Footer from '../components/Footer.vue';
 import CTA from '../components/CTA.vue';
 import NavBar from '../components/NavBar.vue';
 import Introwhatis from '../components/Introwhatis.vue';
-
-// useSeoMeta({
-//     title: 'Contact us at Rebecca Hughes Dyslexia Services',
-//     description: 'Contact details for Rebecca Hughes Dyslexia Services in Newton Abbot. Get in touch today.',
-// });
 </script>
 
 <template>
@@ -19,7 +14,7 @@ import Introwhatis from '../components/Introwhatis.vue';
 
     <section class="p-10 md:p-20 bg-secondary text-white">
         <div class="max-w-4xl mx-auto">
-            <h2 class="uppercase text-3xl md:text-4xl font-bold mb-8 text-primary text-center">Contact Details</h2>
+            <h2 class="uppercase text-3xl md:text-4xl font-bold mb-8 text-primary text-center">Contact Me</h2>
             <div class="space-y-6 text-lg flex flex-col items-center">
                 <div class="flex items-center  justify-center w-full md:w-1/2 text-center gap-3 border-b border-primary pb-4">
                     <span class="font-semibold min-w-[120px]">Call me:</span>

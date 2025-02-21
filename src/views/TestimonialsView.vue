@@ -82,6 +82,12 @@ const testimonials = ref([
         title: "Incredible Progress in Reading and Spelling",
         stars: 5,
         description: "Rebecca made a real difference to our son's reading and spelling. From a child who used to really struggle with these key skills, I'm now constantly amazed to see him doing it without effort. I never thought this would really be possible and it amazes me every day. Can't speak highly enough of Rebecca's expertise!"
+    },
+    {
+        name: "Heather Buscombe",
+        title: "",
+        stars: 5,
+        description: "Cannot recommend Rebecca enough, she was so wonderful with my 2 girls. The support she gave was amazing. I found the whole assessment so informative, now with an informal diagnosis we are able to access the right support needed. Could not recommend more x"
     }
 ]);
 
