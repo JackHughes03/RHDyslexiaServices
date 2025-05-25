@@ -1,4 +1,4 @@
-# rhdyslexiaservices-veu
+# lexety
 
 ## Project setup
 ```
