@@ -6,6 +6,6 @@ Disallow: /T&C-Informal-Assessment.pdf
 Disallow: /contact-success
 Allow: /contact
 Allow: /assessments
-Allow: /dyslexia-and-dyscalculia
+Allow: /dyslexia
 Allow: /testimonials
 Sitemap: https://www.rhdyslexiaservices.co.uk/sitemap.xml
